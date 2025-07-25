@@ -27,7 +27,7 @@ brew install glew
 
 2 - Download and install ImgScene
 ```bash
-curl -L https://github.com/Siamaster/ImgSceneBins/raw/master/mac/ImgScene.zip -o /tmp/ImgScene.zip && \
+curl -L https://github.com/Siamaster/ImgScene-Public/raw/master/mac/ImgScene.zip -o /tmp/ImgScene.zip && \
 unzip -oq /tmp/ImgScene.zip -d /tmp && \
 mv -f /tmp/cmake-build-debug/ImgScene.app /Applications/ && \
 rm -rf /tmp/cmake-build-debug /tmp/ImgScene.zip && \
@@ -37,7 +37,7 @@ xattr -dr com.apple.quarantine /Applications/ImgScene.app
 ### linux
 
 ```bash
-sudo bash -c 'curl -L -o /tmp/imgscene.deb "https://raw.githubusercontent.com/Siamaster/ImgSceneBins/master/linux/ImgScene.deb" && apt install -y /tmp/imgscene.deb || apt --fix-broken install -y && rm /tmp/imgscene.deb'
+sudo bash -c 'curl -L -o /tmp/imgscene.deb "https://raw.githubusercontent.com/Siamaster/ImgScene-Public/master/linux/ImgScene.deb" && apt install -y /tmp/imgscene.deb || apt --fix-broken install -y && rm /tmp/imgscene.deb'
 ```
 
 ### Windows
