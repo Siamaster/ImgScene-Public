@@ -34,7 +34,7 @@ rm -rf /tmp/cmake-build-debug /tmp/ImgScene.zip && \
 xattr -dr com.apple.quarantine /Applications/ImgScene.app
 ```
 
-### linux
+### Linux
 
 ```bash
 sudo bash -c 'curl -L -o /tmp/imgscene.deb "https://raw.githubusercontent.com/Siamaster/ImgScene-Public/master/linux/ImgScene.deb" && apt install -y /tmp/imgscene.deb || apt --fix-broken install -y && rm /tmp/imgscene.deb'
@@ -44,7 +44,7 @@ sudo bash -c 'curl -L -o /tmp/imgscene.deb "https://raw.githubusercontent.com/Si
 
 No dependencies needed. Just run **ImgScene.exe**.
 
-## Manual / Usage
+## Manual
 
 ### Supported file formats
 You can open the following file types:
@@ -67,15 +67,15 @@ You can open the following file types:
 - **Ctrl + R**
 
 ### Fullscreen
-- **F2** -> Toggle
-- **Esc** -> Exit
+- **F2** → Toggle
+- **Esc** → Exit
 
 ### Browse image folders
 
 - **[←] [→]** - Works only if you haven't transformed the image
 - **Ctrl + [←] [→]** - Works always, keeps transformations
 
-### Select image and bring them to front
+### Select image and bring it to front
 
 - **🖱L**
 
@@ -104,7 +104,7 @@ You can open the following file types:
 ### Zoom images
 
 - **🖱Wheel**
-- **＋/－** -> finer control
+- **＋/－** → finer control
 
 ### Rotate images
 
@@ -116,30 +116,34 @@ You can open the following file types:
 
 ### Lock z-indices
 
-- **L** -> Toggle
+- **L** → Toggle
+
+### Reorder z-indices
+
+- **Page up/down**
 
 ### Use paths
 
-- **P** -> Toggle
-- **Ctrl + Shift + F** -> Reset path to frame bounds
+- **P** → Toggle
+- **Ctrl + Shift + F** → Reset path to frame bounds
 
 ### Insert smooth node
 
 - **2x🖱L**
-- **1 + 2x🖱L** -> Cusp
+- **1 + 2x🖱L** → Cusp
 
 ### Select nodes
 
-- **Ctrl + 🖱L** -> Toggle
-- **Shift + 🖱L** -> Select all in path
-- **Ctrl + A** -> Select all in all paths
+- **Ctrl + 🖱L** → Toggle
+- **Shift + 🖱L** → Select all in path
+- **Ctrl + A** → Select all in all paths
 
 ### Auto smooth (all selected smooth nodes)
 
 - **S**
-- **Alt + S** -> Auto smooth all smooth nodes in all selected paths
+- **Alt + S** → Auto smooth all smooth nodes in all selected paths
 
 ### Convert to cusp/smooth node
 
-- **1** -> Cusp
-- **2** -> Smooth
+- **1** → Cusp
+- **2** → Smooth
