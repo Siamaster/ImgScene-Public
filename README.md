@@ -29,8 +29,8 @@ brew install glew
 ```bash
 curl -L https://github.com/Siamaster/ImgScene-Public/raw/refs/heads/main/mac/ImgScene.zip -o /tmp/ImgScene.zip && \
 unzip -oq /tmp/ImgScene.zip -d /tmp && \
-mv -f /tmp/cmake-build-debug/ImgScene.app /Applications/ && \
-rm -rf /tmp/cmake-build-debug /tmp/ImgScene.zip && \
+mv -f /tmp/ImgScene.app /Applications/ && \
+rm -rf /tmp /tmp/ImgScene.zip && \
 xattr -dr com.apple.quarantine /Applications/ImgScene.app
 ```
 
