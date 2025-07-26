@@ -109,6 +109,7 @@ You can open the following file types:
 ### Rotate images
 
 - **R + 🖱L drag**
+- **Shift + 🖱L drag**
 
 ### Flip images
 
