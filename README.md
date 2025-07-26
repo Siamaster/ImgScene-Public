@@ -27,7 +27,7 @@ brew install glew
 
 2 - Download and install ImgScene
 ```bash
-curl -L https://github.com/Siamaster/ImgScene-Public/raw/master/mac/ImgScene.zip -o /tmp/ImgScene.zip && \
+curl -L https://github.com/Siamaster/ImgScene-Public/raw/refs/heads/main/mac/ImgScene.zip -o /tmp/ImgScene.zip && \
 unzip -oq /tmp/ImgScene.zip -d /tmp && \
 mv -f /tmp/cmake-build-debug/ImgScene.app /Applications/ && \
 rm -rf /tmp/cmake-build-debug /tmp/ImgScene.zip && \
