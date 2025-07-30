@@ -8,9 +8,9 @@ You can use it to:
 
 - Create masking **paths** using nodes
 
-- **Save** and **reload** your scenes using a **.isc** file (simple **JSON**)
+- **Save** and **reload** your scenes using a **.isc** file
 
-- This repository includes prebuilt releases for **macOS**, **Linux**, and **Windows**.
+This repository includes prebuilt releases for **macOS**, **Linux**, and **Windows**.
 
 ---
 
@@ -21,8 +21,7 @@ You can use it to:
 
 1 - Install dependencies using [Homebrew](https://brew.sh):
 ```bash
-brew install glfw
-brew install glew
+brew install glfw glew
 ```
 
 2 - Download and install ImgScene
