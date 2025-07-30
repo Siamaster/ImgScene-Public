@@ -10,7 +10,7 @@ You can use it to:
 
 - **Save** and **reload** your scenes using a **.isc** file (simple **JSON**)
 
-- This repository includes binaries for **macOS**, **Linux**, and **Windows**.
+- This repository includes prebuilt releases for **macOS**, **Linux**, and **Windows**.
 
 ---
 
@@ -26,11 +26,12 @@ brew install glew
 ```
 
 2 - Download and install ImgScene
+
 ```bash
 curl -L https://github.com/Siamaster/ImgScene-Public/raw/refs/heads/main/mac/ImgScene.zip -o /tmp/ImgScene.zip && \
 unzip -oq /tmp/ImgScene.zip -d /tmp && \
-mv -f /tmp/ImgScene.app /Applications/ && \
-rm -rf /tmp/ImgScene.app /tmp/ImgScene.zip && \
+rm -rf /Applications/ImgScene.app /tmp/ImgScene.zip && \
+mv /tmp/ImgScene.app /Applications/ && \
 xattr -dr com.apple.quarantine /Applications/ImgScene.app
 ```
 
@@ -46,6 +47,9 @@ No dependencies needed. Just run **ImgScene.exe**.
 
 ## Manual
 
+> **Note:**  
+ On Windows/Linux, replace **⌘** with **Ctrl** for shortcuts.
+
 ### Supported file formats
 You can open the following file types:
 
@@ -57,14 +61,18 @@ You can open the following file types:
 ### Open files
 
 - **Drag & drop**
-- **Ctrl + O**
+- **⌘ + O** (Open dialog)
 
 ### Save files
-- **Ctrl + S**
-- **Ctrl + Shift + S**  (Save As)
+- **⌘ + S**
+- **⌘ + Shift + S**  (Save As)
 
 ### Reload scene
-- **Ctrl + R**
+- **⌘ + R**
+
+### Copy / Paste
+- **⌘ + C** - You can copy files or selected parts of your scene into the clipboard
+- **⌘ + V** - Paste directly into your scene
 
 ### Fullscreen
 - **F2** → Toggle
@@ -73,7 +81,7 @@ You can open the following file types:
 ### Browse image folders
 
 - **[←] [→]** - Works only if you haven't transformed the image
-- **Ctrl + [←] [→]** - Works always, keeps transformations
+- **⌘ + [←] [→]** - Works always, keeps transformations
 
 ### Select image and bring it to front
 
@@ -87,6 +95,7 @@ You can open the following file types:
 ### Remove
 
 - **Delete**
+- **⌘ + ⌫**
 
 ### Select multiple images
 
@@ -126,7 +135,7 @@ You can open the following file types:
 ### Use paths
 
 - **P** → Toggle
-- **Ctrl + Shift + F** → Reset path to frame bounds
+- **⌘ + Shift + F** → Reset path to frame bounds
 
 ### Insert smooth node
 
