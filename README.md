@@ -21,7 +21,7 @@ This repository includes prebuilt releases for **macOS**, **Linux**, and **Windo
 
 1 - Install dependencies using [Homebrew](https://brew.sh):
 ```bash
-brew install glfw glew
+brew install glfw glew little-cms2
 ```
 
 2 - Download and install ImgScene
@@ -113,6 +113,7 @@ You can open the following file types:
 
 - **🖱Wheel**
 - **＋/－** → finer control
+- Hold **Ctrl** to affect frame
 
 ### Rotate images
 
@@ -136,6 +137,10 @@ You can open the following file types:
 - **P** → Toggle
 - **⌘ + Shift + F** → Reset path to frame bounds
 
+### Fit frame over image (Wrap)
+
+- **⌘ + Shift + W**
+
 ### Insert smooth node
 
 - **2x🖱L**
@@ -156,3 +161,8 @@ You can open the following file types:
 
 - **1** → Cusp
 - **2** → Smooth
+
+### Undo / Redo
+
+- **⌘ + Z**
+- **⌘ + Shift + Z**
